@@ -1,16 +1,15 @@
-# chromatype README
+# Chromatype
 
-## Working with Markdown
+## Colors
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+| Color   | Dark      | Bright    |
+| :------ | :-------- | :-------- |
+| Gray    | #2d2d2dff | #eeeeeeff |
+| Comment | #2d2d2d88 | #eeeeee88 |
+| Blue    | #296cb5ff | #5ba2ff   |
+| Cyan    | #45b2c5   | #5be6ff   |
+| Green   | #2a9d1eff | #36d428   |
+| Yellow  | #b5a600ff | #e0ce00ff |
+| Orange  | #b67a20   | #ff9900   |
+| Red     | #b42121ff | #ff4a4a   |
+| Purple  | #9f23b2ff | #c645daff |
