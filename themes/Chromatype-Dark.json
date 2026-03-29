@@ -1,189 +1,247 @@
 {
-	"name": "Chromatype",
-	"colors": {
-		"editor.background": "#2d2d2dff",
-		"editor.foreground": "#eeeeeeff",
-		"activityBarBadge.background": "#eeeeeeff",
-		"activityBarBadge.foreground": "#2d2d2dff",
-		"sideBarTitle.foreground": "#bbbbbb"
-	},
-	"semanticHighlighting": true,
-	"semanticTokenColors": {
-		"selfTypeKeyword": {
-			"foreground": "#ff4a4a",
-			"fontStyle": "normal"
-		},
-		"selfKeyword": {
-			"foreground": "#ff4a4a",
-			"fontStyle": "normal"
-		},
-		"macro": "#eeeeeeaa",
-		"function.static": {
-			"fontStyle": "underline"
-		},
-		"decorator": "#e0ce00ff",
-		"generic": {
-			"fontStyle": "italic"
-		},
-		"builtinAttribute": "#e0ce00ff",
-		"attributeBracket": "#eeeeeeaa"
-	},
-	"tokenColors": [
-		{
-			"name": "Comment",
-			"scope": [
-				"comment",
-				"punctuation.definition.comment"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#eeeeee55"
-			}
-		},
-		{
-			"name": "Operators",
-			"scope": [
-				"keyword.operator"
-			],
-			"settings": {
-				"foreground": "#eeeeee88"
-			}
-		},
-		{
-			"name": "Keywords & Storage",
-			"scope": [
-				"keyword",
-				"storage",
-				"keyword.operator.new",
-				"keyword.operator.logical"
-			],
-			"settings": {
-				"foreground": "#c645daff"
-			}
-		},
-		{
-			"name": "Modifiers",
-			"scope": [
-				"storage.modifier"
-			],
-			"settings": {
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "Important Keywords",
-			"scope": [
-				"keyword.other",
-				"keyword.declaration",
-				"keyword.operator.new"
-			],
-			"settings": {
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Strings",
-			"scope": [
-				"string"
-			],
-			"settings": {
-				"foreground": "#36d428"
-			}
-		},
-		{
-			"name": "Literals",
-			"scope": [
-				"constant.numeric",
-				"constant.language.boolean"
-			],
-			"settings": {
-				"foreground": "#e0ce00ff"
-			}
-		},
-		{
-			"name": "Functions",
-			"scope": [
-				"entity.name.function"
-			],
-			"settings": {
-				"foreground": "#5ba2ff"
-			}
-		},
-		{
-			"name": "Types",
-			"scope": [
-				"entity.name.type"
-			],
-			"settings": {
-				"foreground": "#ff9900"
-			}
-		},
-		{
-			"name": "Generic Parameters",
-			"scope": [
-				"entity.name.type.parameter"
-			],
-			"settings": {
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "Traits",
-			"scope": [
-				"entity.name.type.trait"
-			],
-			"settings": {
-				"foreground": "#5be6ff"
-			}
-		},
-		{
-			"name": "The Self",
-			"scope": [
-				"variable.language.self"
-			],
-			"settings": {
-				"foreground": "#ff4a4a"
-			}
-		},
-		{
-			"name": "Super Special",
-			"scope": [
-				"entity.name.type.result.rust",
-				"entity.name.type.option.rust"
-			],
-			"settings": {
-				"foreground": "#ff4a4a",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "Super Special Types",
-			"scope": [
-				"entity.name.type.numeric"
-			],
-			"settings": {
-				"foreground": "#ff4a4a",
-				"fontStyle": "underline"
-			}
-		},
-		{
-			"name": "Macros",
-			"scope": [
-				"entity.name.function.macro.rules.rust",
-				"variable.other.metavariable.specifier.rust"
-			],
-			"settings": {
-				"foreground": "#eeeeeeaa"
-			}
-		},
-		{
-			"name": "Constants",
-			"scope": [
-				"constant.other.caps"
-			],
-			"settings": {
-				"foreground": "#ff4a4a"
-			}
-		}
-	]
+    "name": "Chromatype",
+    "colors": {
+        "editor.background": "#161616",
+        "editor.foreground": "#dddddd",
+        "activityBarBadge.background": "#33aaff",
+        "activityBarBadge.foreground": "#161616",
+        "sideBar.background": "#202020",
+        "sideBarTitle.foreground": "#aaaaaa",
+        "statusBar.background": "#33aaff",
+        "statusBar.foreground": "#161616"
+    },
+    "semanticHighlighting": true,
+    "semanticTokenColors": {
+        "variable.readonly:javascript": "#dddddd",
+        "method.defaultLibrary": {
+            "foreground": "#ff9900",
+            "fontStyle": "italic"
+        },
+        "struct.defaultLibrary": {
+            "foreground": "#ffff00",
+            "fontStyle": "italic"
+        },
+        "enum.defaultLibrary": {
+            "foreground": "#ffff00",
+            "fontStyle": "italic"
+        },
+        "interface.defaultLibrary": {
+            "foreground": "#ffff00"
+        },
+        "selfTypeKeyword": {
+            "foreground": "#ff4400",
+            "fontStyle": "normal"
+        },
+        "selfKeyword": {
+            "foreground": "#ff4400",
+            "fontStyle": "normal"
+        },
+        "selfParameter": {
+            "foreground": "#ff4400",
+            "fontStyle": "normal"
+        },
+        "clsParameter": {
+            "foreground": "#ff4400",
+            "fontStyle": "normal"
+        },
+        "const.constant": "#ff4400",
+        "function.static": {
+            "fontStyle": "underline"
+        },
+        "generic": {
+            "fontStyle": "italic"
+        },
+        "decorator": "#ffff00",
+        "builtinAttribute": "#ffff00",
+        "class.builtin": {
+            "foreground": "#ffff00"
+        },
+        "lifetime": {
+            "foreground": "#ffff00",
+            "fontStyle": "italic"
+        },
+        "builtinType:rust": {
+            "foreground": "#ff4400",
+            "fontStyle": "underline"
+        },
+        "attributeBracket": "#aaaaaa",
+        "macro": "#aaaaaa"
+    },
+    "tokenColors": [
+        {
+            "name": "Comment",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#777777"
+            }
+        },
+        {
+            "name": "Operators",
+            "scope": [
+                "keyword.operator"
+            ],
+            "settings": {
+                "foreground": "#aaaaaa"
+            }
+        },
+        {
+            "name": "Parameters & Keys",
+            "scope": [
+                "meta.function-call.arguments",
+                "variable.parameter",
+                "meta.object-literal.key",
+                "variable.other.property"
+            ],
+            "settings": {
+                "foreground": "#dddddd"
+            }
+        },
+        {
+            "name": "Keywords & Storage",
+            "scope": [
+                "keyword",
+                "storage",
+                "keyword.operator.new",
+                "keyword.operator.logical.python"
+            ],
+            "settings": {
+                "foreground": "#aa00ff"
+            }
+        },
+        {
+            "name": "Important Keywords",
+            "scope": [
+                "keyword.other",
+                "keyword.declaration",
+                "keyword.operator.new",
+                "keyword.control"
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Modifier Keywords",
+            "scope": [
+                "storage.modifier"
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "String Literals",
+            "scope": [
+                "string"
+            ],
+            "settings": {
+                "foreground": "#77ff00"
+            }
+        },
+        {
+            "name": "Literals",
+            "scope": [
+                "constant.numeric",
+                "constant.language.boolean"
+            ],
+            "settings": {
+                "foreground": "#ffff00"
+            }
+        },
+        {
+            "name": "Functions",
+            "scope": [
+                "entity.name.function",
+                "meta.function-call"
+            ],
+            "settings": {
+                "foreground": "#33aaff"
+            }
+        },
+        {
+            "name": "Magic Functions",
+            "scope": [
+                "support.variable.magic.python"
+            ],
+            "settings": {
+                "foreground": "#00ffff",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Types",
+            "scope": [
+                "entity.name.type"
+            ],
+            "settings": {
+                "foreground": "#ff9900"
+            }
+        },
+        {
+            "name": "Generic Parameters",
+            "scope": [
+                "entity.name.type.parameter"
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Traits",
+            "scope": [
+                "entity.name.type.trait"
+            ],
+            "settings": {
+                "foreground": "#00ffff"
+            }
+        },
+        {
+            "name": "Special",
+            "scope": [
+                "variable.language.self",
+                "variable.other.constant.property",
+                "constant.other.caps"
+            ],
+            "settings": {
+                "foreground": "#ff4400"
+            }
+        },
+        {
+            "name": "Super Special",
+            "scope": [
+                "entity.name.type.result.rust",
+                "entity.name.type.option.rust"
+            ],
+            "settings": {
+                "foreground": "#ff4400",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Super Duper Special",
+            "scope": [
+                "entity.name.type.numeric",
+                "support.name.type.primitive"
+            ],
+            "settings": {
+                "foreground": "#ff4400",
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "name": "Macros",
+            "scope": [
+                "entity.name.function.macro.rust",
+                "entity.name.function.macro.rules.rust",
+                "variable.other.metavariable.specifier.rust"
+            ],
+            "settings": {
+                "foreground": "#aaaaaa"
+            }
+        }
+    ]
 }

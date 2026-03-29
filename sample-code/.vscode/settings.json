@@ -8,5 +8,5 @@
         "**/.hg/store/**": true,
         "**/sample-code/*": true
     },
-    "python-envs.defaultEnvManager": "ms-python.python:pyenv"
+    "C_Cpp.errorSquiggles": "disabled"
 }
