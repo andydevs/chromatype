@@ -15,6 +15,11 @@
                 "label": "Chromatype Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Chromatype-Dark.json"
+            },
+            {
+                "label": "Chromatype Light",
+                "uiTheme": "vs",
+                "path": "./themes/Chromatype-Light.json"
             }
         ]
     }

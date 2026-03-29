@@ -6,7 +6,7 @@
         {
             "label": "Run Theomatic",
             "type": "shell",
-            "command": "nodemon --watch Chromatype-Dark.theo.json --exec 'node theomatic.js'",
+            "command": "nodemon --watch . --ext theo.json --exec 'node theomatic.js'",
             "isBackground": true,
             "problemMatcher": []
         }
